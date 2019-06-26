@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D999EA2E22A01E080090C73E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D999EA2D22A01E080090C73E /* AppDelegate.swift */; };
+		D999EA3022A01E080090C73E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D999EA2F22A01E080090C73E /* ViewController.swift */; };
+		D999EA3322A01E080090C73E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D999EA3122A01E080090C73E /* Main.storyboard */; };
+		D999EA3622A01E080090C73E /* TImer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D999EA3422A01E080090C73E /* TImer.xcdatamodeld */; };
+		D999EA3822A01E090090C73E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D999EA3722A01E090090C73E /* Assets.xcassets */; };
+		D999EA3B22A01E090090C73E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D999EA3922A01E090090C73E /* LaunchScreen.storyboard */; };
+		D999EA4622A01E090090C73E /* TImerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D999EA4522A01E090090C73E /* TImerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D999EA4222A01E090090C73E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D999EA2222A01E080090C73E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D999EA2922A01E080090C73E;
+			remoteInfo = TImer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D999EA2A22A01E080090C73E /* TImer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TImer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D999EA2D22A01E080090C73E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D999EA2F22A01E080090C73E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D999EA3222A01E080090C73E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D999EA3522A01E080090C73E /* TImer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TImer.xcdatamodel; sourceTree = "<group>"; };
+		D999EA3722A01E090090C73E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D999EA3A22A01E090090C73E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D999EA3C22A01E090090C73E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D999EA4122A01E090090C73E /* TImerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TImerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D999EA4522A01E090090C73E /* TImerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TImerTests.swift; sourceTree = "<group>"; };
+		D999EA4722A01E090090C73E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D999EA2722A01E080090C73E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D999EA3E22A01E090090C73E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D999EA2122A01E080090C73E = {
+			isa = PBXGroup;
+			children = (
+				D999EA2C22A01E080090C73E /* TImer */,
+				D999EA4422A01E090090C73E /* TImerTests */,
+				D999EA2B22A01E080090C73E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D999EA2B22A01E080090C73E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D999EA2A22A01E080090C73E /* TImer.app */,
+				D999EA4122A01E090090C73E /* TImerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D999EA2C22A01E080090C73E /* TImer */ = {
+			isa = PBXGroup;
+			children = (
+				D999EA2D22A01E080090C73E /* AppDelegate.swift */,
+				D999EA2F22A01E080090C73E /* ViewController.swift */,
+				D999EA3122A01E080090C73E /* Main.storyboard */,
+				D999EA3722A01E090090C73E /* Assets.xcassets */,
+				D999EA3922A01E090090C73E /* LaunchScreen.storyboard */,
+				D999EA3C22A01E090090C73E /* Info.plist */,
+				D999EA3422A01E080090C73E /* TImer.xcdatamodeld */,
+			);
+			path = TImer;
+			sourceTree = "<group>";
+		};
+		D999EA4422A01E090090C73E /* TImerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D999EA4522A01E090090C73E /* TImerTests.swift */,
+				D999EA4722A01E090090C73E /* Info.plist */,
+			);
+			path = TImerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D999EA2922A01E080090C73E /* TImer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D999EA4A22A01E090090C73E /* Build configuration list for PBXNativeTarget "TImer" */;
+			buildPhases = (
+				D999EA2622A01E080090C73E /* Sources */,
+				D999EA2722A01E080090C73E /* Frameworks */,
+				D999EA2822A01E080090C73E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TImer;
+			productName = TImer;
+			productReference = D999EA2A22A01E080090C73E /* TImer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D999EA4022A01E090090C73E /* TImerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D999EA4D22A01E090090C73E /* Build configuration list for PBXNativeTarget "TImerTests" */;
+			buildPhases = (
+				D999EA3D22A01E090090C73E /* Sources */,
+				D999EA3E22A01E090090C73E /* Frameworks */,
+				D999EA3F22A01E090090C73E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D999EA4322A01E090090C73E /* PBXTargetDependency */,
+			);
+			name = TImerTests;
+			productName = TImerTests;
+			productReference = D999EA4122A01E090090C73E /* TImerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D999EA2222A01E080090C73E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Sofia Ongele";
+				TargetAttributes = {
+					D999EA2922A01E080090C73E = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					D999EA4022A01E090090C73E = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = D999EA2922A01E080090C73E;
+					};
+				};
+			};
+			buildConfigurationList = D999EA2522A01E080090C73E /* Build configuration list for PBXProject "TImer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D999EA2122A01E080090C73E;
+			productRefGroup = D999EA2B22A01E080090C73E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D999EA2922A01E080090C73E /* TImer */,
+				D999EA4022A01E090090C73E /* TImerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D999EA2822A01E080090C73E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D999EA3B22A01E090090C73E /* LaunchScreen.storyboard in Resources */,
+				D999EA3822A01E090090C73E /* Assets.xcassets in Resources */,
+				D999EA3322A01E080090C73E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D999EA3F22A01E090090C73E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D999EA2622A01E080090C73E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D999EA3022A01E080090C73E /* ViewController.swift in Sources */,
+				D999EA2E22A01E080090C73E /* AppDelegate.swift in Sources */,
+				D999EA3622A01E080090C73E /* TImer.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D999EA3D22A01E090090C73E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D999EA4622A01E090090C73E /* TImerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D999EA4322A01E090090C73E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D999EA2922A01E080090C73E /* TImer */;
+			targetProxy = D999EA4222A01E090090C73E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D999EA3122A01E080090C73E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D999EA3222A01E080090C73E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D999EA3922A01E090090C73E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D999EA3A22A01E090090C73E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D999EA4822A01E090090C73E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D999EA4922A01E090090C73E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D999EA4B22A01E090090C73E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EXMP2B6Y8J;
+				INFOPLIST_FILE = TImer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Sofia-Ongele.TImer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D999EA4C22A01E090090C73E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EXMP2B6Y8J;
+				INFOPLIST_FILE = TImer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Sofia-Ongele.TImer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D999EA4E22A01E090090C73E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EXMP2B6Y8J;
+				INFOPLIST_FILE = TImerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Sofia-Ongele.TImerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TImer.app/TImer";
+			};
+			name = Debug;
+		};
+		D999EA4F22A01E090090C73E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EXMP2B6Y8J;
+				INFOPLIST_FILE = TImerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Sofia-Ongele.TImerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TImer.app/TImer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D999EA2522A01E080090C73E /* Build configuration list for PBXProject "TImer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D999EA4822A01E090090C73E /* Debug */,
+				D999EA4922A01E090090C73E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D999EA4A22A01E090090C73E /* Build configuration list for PBXNativeTarget "TImer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D999EA4B22A01E090090C73E /* Debug */,
+				D999EA4C22A01E090090C73E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D999EA4D22A01E090090C73E /* Build configuration list for PBXNativeTarget "TImerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D999EA4E22A01E090090C73E /* Debug */,
+				D999EA4F22A01E090090C73E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D999EA3422A01E080090C73E /* TImer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D999EA3522A01E080090C73E /* TImer.xcdatamodel */,
+			);
+			currentVersion = D999EA3522A01E080090C73E /* TImer.xcdatamodel */;
+			path = TImer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D999EA2222A01E080090C73E /* Project object */;
+}
